@@ -76,7 +76,7 @@
                 <span class="dinnerOutput"></span>
             </div>
             <div>
-                <button onclick="getOption()">
+                <button id="btn" onclick="getOption()" onclick="addValues()">
                     Create Menu
                 </button>
             </div>
@@ -85,20 +85,27 @@
                     <tr>
                       <th>Meal</th>
                       <th>Selection</th>
+                      <th>Nutrition Value</th>
                     </tr>
                     <tr>
                       <td>Breakfast</td>
                       <td id="breakfastChoice"></td>
+                      <td id="breakfastNutr"></td>
                     </tr>
                     <tr>
                       <td>Lunch</td>
                       <td id="lunchChoice"></td>
+                      <td id="lunchNutr"></td>
                     </tr>
                     <tr>
                         <td>Dinner</td>
                         <td id="dinnerChoice"></td>
+                        <td id="dinnerNutr"></td>
                     </tr>
                   </table>
+            </div>
+            <div>
+                <p id="confirmation"></p>
             </div>
             <script src="index.js"></script>
         </body>
