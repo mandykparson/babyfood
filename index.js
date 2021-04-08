@@ -50,13 +50,13 @@ button.addEventListener('click', function() {
         lunchNutr.innerText = "1 veggie"
     }
 
-    if (dinnerElement.value === "beef", "chicken"){
-        goodMenu.protein++
-        dinnerNutr.innerText = "1 protein"
-    } else {
+    if (dinnerElement.value === "beef and potato", "chicken and corn", "beef and root vegetables", "chicken and corn"){
         goodMenu.protein++
         goodMenu.veggie++
         dinnerNutr.innerText = "1 protein 1 veggie"
+    } else {
+        goodMenu.protein++
+        dinnerNutr.innerText = "1 protein"
     }
 })
 
