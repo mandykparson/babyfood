@@ -1,0 +1,15 @@
+html {
+    background-color: #fff;
+    font-family: "sofia-pro",sans-serif;
+    color: #15206b;
+}
+
+.selections {
+    float: left;
+    width: 33.33%;
+    padding-bottom: 20px;
+  }
+  
+#btn {
+   display: flex;
+}
